@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:#002339;
+    color: #fff;
+}
+.container{
+    margin-top: 12%;
+    margin-left: 5%;
+    width: 90%;
+    max-width: 700px;
+    align-items: center;
+}
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+.container h1{
+    font-weight: bold;
+    font-size: 45px;
+    font-family: cursive;
+}
+.container h1 span{
+    font-weight: bold;
+    font-size: 45px;
+    font-family: cursive;
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+    
+}
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+.container button img{
+    width: 28px;
+    margin-right: 10px;
+}
+.container button{
+    border: none;
+    outline: none;
+    background: #019f55;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.alert{
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    color: black;
+    padding: 30px;
+}
+#popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+}
+#popup img{
+    margin-top: -50px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,0.2);
+}
+#popup h2{
+    
+    font-size: 28px;
+    font-weight: bold;
+    margin: 30px 0 10px;
+    padding-top: 20px;
+}
+#popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #43ca76;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgb(0, 0, 0,0.2);
+
+}
