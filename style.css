@@ -114,3 +114,9 @@ body{
     box-shadow: 0 5px 5px rgb(0, 0, 0,0.2);
 
 }
+.tit1{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 18px;
+    font-family: cursive;
+}
