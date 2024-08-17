@@ -42,6 +42,7 @@ body{
     
 }
 .display img{
+    margin-right: 17px;
     width: 30px;
     cursor: pointer;
 }
